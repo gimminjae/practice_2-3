@@ -1,0 +1,3 @@
+<ul>
+    <li th:each="post : ${postList}"><a th:href="@{|/post/${post.id}|}">[[${post.title}]]</a></li>
+</ul>
